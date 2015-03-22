@@ -279,6 +279,22 @@ highlight ColorColumn ctermbg=0
 
 let java_space_errors = 1
 
+" Mode Indication -Prominent!
+function! InsertStatuslineColor(mode)
+    hi Normal ctermfg=13 ctermbg=16
+    "hi Normal ctermfg=none ctermbg=darkgrey
+endfunction
+ 
+function! InsertLeaveActions()
+    hi Normal ctermfg=black ctermbg=white
+    hi Normal ctermfg=None ctermbg=None
+    "hi statusline ctermbg=none
+endfunction
+ 
+au InsertEnter * call InsertStatuslineColor(v:insertmode)
+au InsertLeave * call InsertLeaveActions()
+
+
 " for some reason after loading ~/.vimrc with `source ~/.vimrc` inside vim,
 " everything gets highlighted. this works around that.
 noh

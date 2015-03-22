@@ -18980,7 +18980,7 @@
 	<key>JobName</key>
 	<true/>
 	<key>LeftCommand</key>
-	<integer>1</integer>
+	<integer>7</integer>
 	<key>LeftOption</key>
 	<integer>2</integer>
 	<key>LoadPrefsFromCustomFolder</key>
@@ -18988,9 +18988,7 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/SpaceMonkey</string>
-	<key>NSNavPanelExpandedStateForSaveMode</key>
-	<true/>
+	<string>~/dotfiles/files/iterm2</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
@@ -19015,9 +19013,9 @@
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>2362 99 924 485 1920 -49 2560 1418 </string>
+	<string>214 365 924 485 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>0 28 1916 1150 0 0 1920 1178 </string>
+	<string>652 424 1060 696 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_8E9BA4F3-A719-4AD8-9BF8-05E357DA205F</key>
 	<true/>
 	<key>NeverWarnAboutShortLivedSessions_B3BD956F-1A90-4C0E-A1BA-B81C544936BE</key>
@@ -22078,8 +22076,6 @@
 			<string>/Users/hamnox</string>
 		</dict>
 	</array>
-	<key>NoSyncNeverRemindPrefsChangesCopy</key>
-	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -22134,15 +22130,17 @@
 	<key>QuitWhenAllWindowsClosed</key>
 	<false/>
 	<key>RightCommand</key>
-	<integer>8</integer>
+	<integer>1</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
 	<string>http://iterm2.com/appcasts/testing.xml</string>
+	<key>SUHasLaunchedBefore</key>
+	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-10-24T14:40:20Z</date>
+	<date>2015-02-02T20:04:26Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -22196,6 +22194,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.0.0.20141022</string>
+	<string>2.0.0.20141103</string>
 </dict>
 </plist>
