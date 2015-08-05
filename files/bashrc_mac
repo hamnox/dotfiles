@@ -9,3 +9,4 @@ export PATH="$PATH:$HOME/adt/sdk/tools/"
 
 export CFLAGS=-Qunused-arguments
 export CPPFLAGS=-Qunused-arguments
+alias jsc=/System/Library/Frameworks/JavaScriptCore.framework/Versions/Current/Resources/jsc
