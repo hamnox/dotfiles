@@ -120,6 +120,14 @@ function displaygit() {
 alias mv="mv -i"
 alias cp="cp -i"
 
+# use pushd instead of cd
+# clear with dirs -c
+
+silentpushd() {
+    builtin pushd "$@" > /dev/null; }
+
+alias cd=silentpushd
+
 # make file give all the results it knows about, not just the first one
 alias file="file -k"
 
@@ -156,3 +164,23 @@ function countlines() {
 }
 
 export PYTHONIOENCODING="utf-8"
+
+# temp thing
+# alias affirm="python ~/affirm.py"
+
+# mel's clever randomizer
+# random() {
+#     if [ "$2" ]
+#     then
+#         echo
+#         sort -R $1 | head -n $2
+#         echo
+#     else
+#         echo
+#         sort -R $1
+#         echo
+#     fi
+# }
+
+alias showhidden="defaults write com.apple.finder AppleShowAllFiles YES"
+alias hidehidden="defaults write com.apple.finder AppleShowAllFiles NO"
