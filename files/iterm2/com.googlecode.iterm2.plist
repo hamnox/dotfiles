@@ -18988,12 +18988,16 @@
 	<key>MaxVertically</key>
 	<false/>
 	<key>NSNavLastRootDirectory</key>
-	<string>~/dotfiles/files/iterm2</string>
+	<string>~/Documents</string>
+	<key>NSNavPanelExpandedSizeForSaveMode</key>
+	<string>{712, 565}</string>
 	<key>NSQuotedKeystrokeBinding</key>
 	<string></string>
 	<key>NSRepeatCountBinding</key>
 	<string></string>
 	<key>NSScrollAnimationEnabled</key>
+	<false/>
+	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
 	<key>NSTableView Columns KeyBingingTable</key>
 	<array>
@@ -19006,18 +19010,18 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>319</string>
+		<string>322</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
 	<key>NSWindow Frame Preferences</key>
-	<string>214 365 924 485 0 0 1920 1177 </string>
+	<string>214 481 606 456 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>1070 177 850 698 0 0 1920 1177 </string>
+	<string>93 92 746 749 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
-	<string>102 279 850 698 0 0 1920 1177 </string>
+	<string>102 682 514 295 0 0 1920 1177 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
 	<string>296 100 850 698 0 0 1920 1177 </string>
 	<key>NeverWarnAboutShortLivedSessions_8E9BA4F3-A719-4AD8-9BF8-05E357DA205F</key>
@@ -22080,12 +22084,24 @@
 			<string>/Users/hamnox</string>
 		</dict>
 	</array>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste</key>
+	<true/>
+	<key>NoSyncDoNotWarnBeforeMultilinePaste_selection</key>
+	<integer>0</integer>
+	<key>NoSyncHaveShownPromoWithId_4</key>
+	<true/>
+	<key>NoSyncInstallationId</key>
+	<string>051AE1D8-E9B7-4593-B637-86E272C05E70</string>
 	<key>NoSyncNeverRemindPrefsChangesLost</key>
 	<true/>
+	<key>NoSyncPermissionToShowTip</key>
+	<false/>
+	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
+	<real>486495270.54490101</real>
 	<key>NoSyncTimeOfLastPromo</key>
-	<real>453660023.759996</real>
+	<real>477966528.747908</real>
 	<key>NoSyncTimeOfLastPromoDownload</key>
-	<real>471460374.726282</real>
+	<real>486410871.78049499</real>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -22100,6 +22116,8 @@
 	<false/>
 	<key>PasteFromClipboard</key>
 	<false/>
+	<key>PasteTabToStringTabStopSize</key>
+	<integer>4</integer>
 	<key>PointerActions</key>
 	<dict>
 		<key>Button,1,1,,</key>
@@ -22147,12 +22165,14 @@
 	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
+	<key>SUFeedAlternateAppNameKey</key>
+	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/testing.xml</string>
+	<string>https://iterm2.com/appcasts/testing.xml?shard=46</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2015-12-10T17:21:30Z</date>
+	<date>2016-06-03T18:09:03Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>Secure Input</key>
@@ -22206,6 +22226,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>2.1.4</string>
+	<string>3.0.0</string>
 </dict>
 </plist>

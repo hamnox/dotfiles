@@ -297,3 +297,41 @@ au InsertLeave * call InsertLeaveActions()
 " for some reason after loading ~/.vimrc with `source ~/.vimrc` inside vim,
 " everything gets highlighted. this works around that.
 noh
+
+let g:immunityToChangePath = "~/.immunity_to_change_template"
+function! ImmunityToChange()
+    tabnew
+    set syntax=markdown
+    exec 'read '.g:immunityToChangePath
+    setlocal colorcolumn=60
+    execute "normal /IMPROVEMENT GOAL/\<CR>zt<CR>"
+
+    below split
+    setlocal colorcolumn=60
+    execute "normal /ATTEMPTED FIXES/\<CR>zt<CR>"
+
+    vsplit
+    wincmd L
+    setlocal colorcolumn=60
+    execute "normal /BLOCKING BEHAVIORS/\<CR>zt<CR>"
+
+    vsplit
+    wincmd L
+    setlocal colorcolumn=60
+    execute "normal /WORRY BOX/\<CR>zt<CR>"
+
+    below split
+    setlocal colorcolumn=60
+    execute "normal /HIDDEN COMPETING COMMITMENTS/\<CR>zt<CR>"
+
+    vsplit
+    wincmd L
+    setlocal colorcolumn=60
+    execute "normal /UNDERLYING BIG ASSUMPTIONS/\<CR>zt<CR>"
+
+    below split
+    setlocal colorcolumn=60
+    execute "normal /TEST YOUR ASSUMPTIONS/\<CR>zt<CR>"
+endfunction
+
+nnoremap ,i :call ImmunityToChange()<CR><ESC><ESC>
